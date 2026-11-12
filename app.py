@@ -63,7 +63,15 @@ with tab2:
     st.dataframe(df.head(500), use_container_width=True)
 
 with tab3:
-    st.write("Publish your report in Power BI Service → File → Embed report → Publish to web, paste the URL below.")
-    url = st.text_input("Power BI embed URL")
+    st.subheader("Power BI dashboard")
+    url = st.text_input("Power BI embed URL (optional)")
     if url:
         st.components.v1.iframe(url, height=600)
+    else:
+        import glob
+        shots = sorted(glob.glob("screenshots/*.png") + glob.glob("screenshots/*.jpg"))
+        if shots:
+            for p in shots:
+                st.image(p, use_container_width=True)
+        else:
+            st.info("Add dashboard screenshots to a 'screenshots' folder in the repo.")
