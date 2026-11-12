@@ -38,7 +38,7 @@ Python (Pandas), SQL, Power BI, Streamlit, GitHub
 - Encourage UPI payment to cut cash handling.
 
 ## Live app
-[paste your Streamlit link here]
+[(https://ola-ride-insights-01.streamlit.app/)]
 
 ## Dashboard Screenshots
 [<img width="832" height="624" alt="1_ride_volume" src="https://github.com/user-attachments/assets/a7c4aa48-2642-408c-88f6-2fb52eed9dcd" />
