@@ -40,8 +40,13 @@ Python (Pandas), SQL, Power BI, Streamlit, GitHub
 ## Live app
 [paste your Streamlit link here]
 
-## Dashboard screenshots
-[upload your 5 screenshots and add them here]
+## Dashboard Screenshots
+[<img width="832" height="624" alt="1_ride_volume" src="https://github.com/user-attachments/assets/a7c4aa48-2642-408c-88f6-2fb52eed9dcd" />
+<img width="832" height="624" alt="3_top_vehicle_distance" src="https://github.com/user-attachments/assets/91b22d5f-d891-4c90-8018-12f9f61c88ff" />
+<img width="832" height="624" alt="6_revenue_payment" src="https://github.com/user-attachments/assets/6107f7fa-5cbb-4068-a8d1-bf61c4c79632" />
+<img width="832" height="624" alt="7_top_customers" src="https://github.com/user-attachments/assets/3f797ad5-73c9-4a9b-b1fd-1141794e6b4e" />
+<img width="832" height="624" alt="8_distance_day" src="https://github.com/user-attachments/assets/e3e30ad0-00f7-40af-bc95-81acab8f779a" />]
+
 
 ## How to run locally
 pip install -r requirements.txt
